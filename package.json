@@ -1,0 +1,20 @@
+{
+  "name": "enumerator-example",
+  "version": "1.0.0",
+  "description": "Example using the @dalokey/enumerator package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./.lib/index.js",
+    "build": "rimraf ./.lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dalokey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@dalokey/enumerator": "^1.0.0"
+  }
+}
